@@ -1,0 +1,73 @@
+
+  body{
+    background-color: rgb(53, 32, 4);
+    background-image: url("ImgAssets/background1wood.png");
+  }
+
+  .defaultFont{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .middle{
+    position: absolute;
+    left: 30%;
+
+  }
+
+  #icecreamArea{
+   background-color: burlywood;
+   width: 30%;
+   height: 100%;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+  }
+
+  #clickIcecream{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+
+  }
+
+  .buildingMainDiv{
+  position: absolute;
+    margin-left: 0%;
+    margin-top: auto;
+
+    width: 120%;
+    height: 14%;
+    background-color: rgb(59, 44, 23);
+    
+  
+    }
+    
+    .buildBuy{
+  
+      position: absolute;
+      top: 20%;
+      right: 0%;
+      width: 50%;
+      height: 80%;
+      overflow-y: auto;
+      background-color: rgb(105, 71, 23);
+    }
+
+    .buildingPicture{
+
+     width: 130%;
+     height: 130%;
+    position: absolute;
+    top: -10%;
+    right: 30%;
+    }
+
+    .subBuildingText{
+      position: absolute;
+      bottom: -20%;
+      left: 10%;
+      width: 60%;
+      height: 50;
+    }
