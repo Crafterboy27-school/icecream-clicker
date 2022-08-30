@@ -148,12 +148,7 @@ renderBuilding("icecream factory")
 
 }
 
-if (document.cookies == null){
 
-}else{
-
-  loadSave(document.cookies)
-}
 startRender()
 //start loops
 loopHandler()
