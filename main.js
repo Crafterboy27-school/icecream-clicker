@@ -148,7 +148,7 @@ renderBuilding("icecream factory")
 
 }
 
-if (document.cookies == null){
+if (document.cookies == ''){
   print("cookies not detected")
 }else{
   print("cookies detected")
