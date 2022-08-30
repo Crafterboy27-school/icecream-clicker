@@ -148,10 +148,10 @@ renderBuilding("icecream factory")
 
 }
 
-if (document.cookies == ''){
-  print("cookies not detected")
+if (document.cookies == null){
+
 }else{
-  print("cookies detected")
+
   loadSave(document.cookies)
 }
 startRender()
