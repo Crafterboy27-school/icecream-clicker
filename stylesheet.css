@@ -71,3 +71,10 @@
       width: 60%;
       height: 50;
     }
+
+    h3 {
+      position: absolute;
+      top: 0%;
+      font-size: 76%;
+
+    }
