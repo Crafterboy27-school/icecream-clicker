@@ -109,7 +109,7 @@ function save(showOutput){
   function showSaveInSaveBox() {
    save()
    document.getElementById("saveCode").value = saveText;
-   document.cookies = saveText
+   localStorage.setItem('Data', saveText)
   }
 
 
@@ -129,7 +129,7 @@ function loopHandler(){
     autoClick()
     showSaveInSaveBox()
     save()
-    document.cookies = saveText
+    localStorage.setItem('Data', saveText)
 
   }, 1000);
 
@@ -148,7 +148,24 @@ renderBuilding("icecream factory")
 
 }
 
+function deleteSave() {
 
+  if (confirm("Delete save?")) {
+    console.log("Deleted save")
+    loadSave('eyJ2ZXJzaW9uT2ZTYXZlIjoyLCJpY2VjcmVhbSI6MCwiaWNlY3JlYW1QZXJTZWNvbmQiOjAsImJ1aWxkaW5ncyI6eyJncmFuZHBhcyI6MSwiaWNlY3JlYW0gbWFjaGluZSI6MSwibWlsayBmYXJtIGFuZCBwcm9jY2VzaW5nIHJvb20iOjEsImljZWNyZWFtIGZhY3RvcnkiOjF9fQ')
+  } else {
+    console.log("Delete save canceled")
+  }
+
+  
+}
+
+
+if (localStorage.getItem('Data') == null){
+  console.log("No save data detected")
+}else{
+  loadSave(localStorage.getItem('Data'));
+}
 startRender()
 //start loops
 loopHandler()
