@@ -36,7 +36,7 @@
       </div>
     </div>
 
-    <!--save and load-->
+    <!--save, load, reset save-->
     <div class="middle">
       <button onclick="loadSaveButton(1)">Load</button>
       <input type="text" id="textBoxForSave" >
@@ -44,7 +44,9 @@
     <div class="middle" style="top: 5%;">
       <input type="text" value="SAVE HASNT BEEN LOADED INTO BOX" id="saveCode" readonly>
     </div>
-
+    <div class="middle" style="top: 8%;">
+      <button onclick="deleteSave()">Reset Save</button>
+    </div>
     <!--Javascript-->
     <script src="main.js"></script>
 
