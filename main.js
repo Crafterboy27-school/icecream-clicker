@@ -34,10 +34,10 @@ const buildingStartCost =
 
 const buildingIcecreamPerSecond =
 {
-  "grandpas": 0.3,
-  "icecream machine": 3,
-  "milk farm and proccesing room": 6,
-  "icecream factory": 48,
+  "grandpas": 0.25,
+  "icecream machine": 2.5,
+  "milk farm and proccesing room": 15,
+  "icecream factory": 75,
 }
 
 
